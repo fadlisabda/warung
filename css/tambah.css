@@ -1,0 +1,101 @@
+.container{
+	position:absolute;
+	top: 10%;
+	left: 16%;
+	color: black;
+	background-image: url(../gambar/imattsmart-kigHD-rVJzA-unsplash.jpg);
+	width: 1000px;
+	height: 550px;
+	background-size: cover;
+	padding-left: 15%;
+	padding-top: 30px;
+	box-sizing: border-box;
+}
+
+.header1{
+	font-size: 35px;
+	font-family: arial;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color: #333;
+	text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0,0,0,0.15);
+}
+
+label{
+	font-size: 20px;
+	letter-spacing: 2px;
+	line-height: 3px;
+	font-family: arial;
+	text-transform: uppercase;
+}
+
+input{
+	font-size: 20px;
+	height: 30px;
+	letter-spacing: 2px;
+	font-family: arial;
+}
+
+.jumlah{
+	width: 405px;
+}
+
+.option{
+	font-size: 15px;
+	letter-spacing: 2px;
+	font-family: arial;
+}
+
+.area{
+	font-size: 20px;
+	letter-spacing: 2px;
+	font-family: arial;
+}
+
+select{
+	width: 412px;
+	height: 50px;
+	font-size: 15px;
+	letter-spacing: 2px;
+	font-family: arial;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.button{
+	width: 210px;
+	height: 30px;
+	font-size: 18px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	background-color: #449e47;
+	color: white;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	cursor: pointer;
+}
+
+body{
+	background-image: url(../gambar/repeated-square-dark.png);
+}
+
+.button2{
+	width: 110px;
+	height: 27px;
+	font-size: 18px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	background-color: #d93749;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	cursor: pointer;
+}
+
+.button2 a{
+	text-decoration: none;
+	color: white;
+}

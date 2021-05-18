@@ -1,0 +1,155 @@
+.logout{
+	width:95px;
+	height: 35px;
+	background-color: #d93749;
+	border-radius: 5px;
+	font-size: 17px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.logout a{
+	color: white;
+	font-family: arial;
+}
+
+.tambah{
+	width: 230px;
+	height: 40px;
+	background-color: #30a54a;
+	border-radius: 5px;
+	font-size: 15px;
+	letter-spacing: 2px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.tambah a{
+	color: white;
+	font-family: arial;
+}
+
+.ubah{
+	background-color: #fdc02e;
+	width:70px;
+	height: 40px;
+	border-radius: 5px;
+	font-size: 16px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.ubah a{
+	font-family: arial;
+	color: black;
+}
+
+.hapus{
+	background-color: #d93749;
+	width:80px;
+	height: 40px;
+	border-radius: 5px;
+	font-size: 16px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.hapus a{
+	font-family: arial;
+	color: white;
+}
+
+.container{
+	position: absolute;
+}
+
+.header1{
+	font-size: 40px;
+	font-family: arial;
+	text-align: center;
+	text-transform: uppercase;
+	color: #333;
+	text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0,0,0,0.15);
+}
+
+a{
+	text-decoration: none;
+}
+.loader{
+	width: 100px;
+	position: absolute;
+	top: 115px;
+	left: 470px;
+	z-index: -1;
+	display: none;
+}
+#cari{
+	margin-top: 10px;
+	font-size: 20px;
+	letter-spacing: 2px;
+}
+.cetak{
+	width: 50px;
+	height: 50px;
+	background-image: url(../gambar/cetak.png);
+	background-repeat: no-repeat;
+	text-indent: -9999px;
+	display: inline-block;
+	position: absolute;
+	top: 95px;
+}
+@media print{
+	.logout,.tambah,.cari,.link,.aksi{
+		display: none;
+	}
+}
+
+thead{
+	background-color: #6d7ae0;
+	color: #e8e8f8;
+	font-family: segoe ui;
+	font-size: 16px;
+	letter-spacing:1px;
+	text-transform: uppercase;
+}
+
+td{
+	background-color: white;
+	font-family: segoe ui;
+	font-size: 17px;
+}
+
+table{
+	cursor: pointer;
+}
+
+tbody tr:hover td{
+	background-color: #edecfe;
+
+}
+
+/*body{
+	background-color: red;
+}*/
+
+a{
+	font-family: segoe ui;
+}
+
+.table{
+	margin-top: 10px;
+}
+
+.link{
+	font-size: 17px;
+}
+
+.tes3{
+	margin-top: -39px;
+}
+
+.tes2{
+	margin-top: -5px;
+	margin-left: 85px;
+}

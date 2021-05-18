@@ -1,0 +1,98 @@
+body{
+	background-image: url(../gambar/repeated-square-dark.png);
+}
+
+.container{
+	width: 1000px;
+	height: 550px;
+	position:absolute;
+	top: 10%;
+	left: 16%;
+	color: black;
+	background-image: url(../gambar/beatriz-perez-moya-XN4T2PVUUgk-unsplash.jpg);
+	background-size: cover;
+	padding-left: 25px;
+	padding-top: 20px;
+	box-sizing: border-box;
+}
+
+.header1{
+	font-size: 35px;
+	font-family: arial;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color: #333;
+	text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0,0,0,0.15);
+}
+
+label{
+	font-size: 20px;
+	letter-spacing: 2px;
+	line-height: 3px;
+	font-family: arial;
+	text-transform: uppercase;
+}
+
+input{
+	width: 400px;
+	font-size: 20px;
+	height: 30px;
+	letter-spacing: 2px;
+	font-family: arial;
+}
+
+select{
+	width: 409px;
+	height: 50px;
+	font-size: 15px;
+	letter-spacing: 2px;
+	font-family: arial;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.area{
+	font-size: 20px;
+	letter-spacing: 2px;
+	font-family: arial;
+}
+
+.option{
+	font-size: 15px;
+	letter-spacing: 2px;
+	font-family: arial;
+}
+
+.button{
+	width: 210px;
+	height: 30px;
+	font-size: 18px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	background-color: #fdc02e;
+	color: black;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	cursor: pointer;
+}
+
+.button2{
+	width: 110px;
+	height: 27px;
+	font-size: 18px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	background-color: #d93749;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	cursor: pointer;
+}
+
+.button2 a{
+	text-decoration: none;
+	color: white;
+}

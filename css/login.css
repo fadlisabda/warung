@@ -1,0 +1,113 @@
+.remember{
+	width : 25px; 
+	height: 25px;
+}
+input{
+	letter-spacing: 2px;
+	font-size     : 20px;
+}
+label{
+	letter-spacing: 2px;
+	font-family   : arial;
+	font-size     : 30px;
+}
+.container{
+	position      : absolute;
+	top           :10%;
+	left          : 4%;
+	text-transform: uppercase;
+}
+
+.gambar1{
+	background-image         : url(../gambar/bench-accounting-nvzvOPQW0gc-unsplash.jpg);
+	background-repeat        : no-repeat;
+	color                    : black;
+	width                    : 630px;
+	height                   : 500px;
+	padding-left             : 10px;
+	padding-top              : 70px;
+	box-sizing               : border-box;
+	float                    : left;
+	opacity                  : 0.9;
+	border-top-left-radius   : 5%;
+	border-bottom-left-radius: 5%;
+}
+
+.header1{
+	font-family: arial;
+	font-size  : 45px;
+}
+
+.header2{
+	font-family: arial;
+	font-size  : 45px;
+}
+
+.gambar2{
+	opacity                   : 0.9;
+	background-image          : url(../gambar/nordwood-themes-nDd3dIkkOLo-unsplash.jpg);
+	background-repeat         : no-repeat;
+	background-size           : cover;
+	width                     : 630px;
+	height                    : 500px;
+	padding-top               : 70px;
+	padding-left              : 20px;
+	float                     : left;
+	color                     : black;
+	box-sizing                : border-box;
+	border-top-right-radius   : 5%;
+	border-bottom-right-radius: 5%;
+}
+
+body{
+	height: 700px;
+	background: linear-gradient(to top right,#F17C58,#E94584,#24AADB,#27DBB1,#FFDC18,#FF3706);
+}
+
+.button{
+	background-color: #8870ff;
+	font-family     : arial;
+	font-size       : 20px;
+	font-weight     : bold;
+	color           : white;
+	width           : 100px;
+	height          : 50px;
+	cursor          : pointer;
+	border-radius   : 10%;
+	letter-spacing  : 3px;
+	text-transform  : uppercase;
+}
+
+.button:hover{
+	background-color: #6450cc;
+	cursor          : pointer;
+}
+
+.button:active{
+	background-color: white;
+	color           : #6c59cf;
+	cursor          : pointer;
+}
+
+.link{
+	font-weight   : bold;
+	color         : red;
+	letter-spacing: 2px;
+}
+
+.error{
+	font-size  : 25px;
+	font-family: arial;
+	color      : red;
+	font-weight: bold;
+}
+
+.klik{
+	font-size     : 30px;
+	font-family   : arial;
+	letter-spacing: 2px;
+}
+
+.date{
+	font: bold 25px arial;
+}
